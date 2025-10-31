@@ -1,9 +1,12 @@
+import Greeting from './Greeting';
+import GreetingHub from './GreetingHub';
+
 function App() {
   return (
     <div>
-      <h1>Hello React Onboarding!</h1>
+      <GreetingHub />
     </div>
   );
-}
+};
 
 export default App;
